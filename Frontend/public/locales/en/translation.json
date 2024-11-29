@@ -1,0 +1,186 @@
+{
+  "Home": {
+    "contentSection": {
+      "weAreThe": "We Are The",
+      "kissanMitra": "Kissan Mitra",
+      "empoweringFarmers": "Empowering Farmers, Growing Together",
+      "moreInfo": "More info",
+      "empoweringFarmersWithInsights": "Empowering Farmers with Real-Time Insights and Community Support"
+    },
+    "serviceContent": {
+      "title": "At Kissan Mitra, we provide cutting-edge technology to support farmers in their daily activities.",
+      "subtitle": "At Kissan Mitra, we're committed to equipping farmers with the latest technology, designed to enhance productivity.",
+      "checkout": "CHECKOUT"
+    },
+    "servicecards": {
+      "title": "Comprehensive Services to Enhance Your Farming Experience",
+      "weatherupdates": "Weather Updates",
+      "markettrends": "Market Trends",
+      "checkplantdisease": "Check Plant Disease",
+      "findbestfertilizer": "Find Best Fertilizer",
+      "calculateyield": "Calculate Yield",
+      "community": "Community"
+    },
+    "propcards": {
+      "title": "Empowering Farmers with Smart Solutions - Kissan Mitra",
+      "eco": "Eco",
+      "fresh": "Fresh",
+      "safe": "Safe",
+      "easy": "Easy"
+    },
+    "footer": {
+      "product": "Product",
+      "overview": "Overview",
+      "features": "Features",
+      "company": "Company",
+      "aboutUs": "About us",
+      "careers": "Careers",
+      "resource": "Resource",
+      "blog": "Blog",
+      "newsletter": "Newsletter",
+      "contactsection": {
+        "placeholder": "SEND MESSAGE TO ORGANIZATION",
+        "sendButton": "SEND"
+      }
+    }
+  },
+  "Navbar": {
+    "title": "SERVICES",
+    "weather": "Weather",
+    "weather_description": "Get accurate weather updates for your location.",
+    "crop_yield_prediction": "Crop Yield Prediction",
+    "crop_yield_prediction_description": "Predict the yield of your crops with advanced analytics.",
+    "plant_disease_prediction": "Plant Disease Prediction",
+    "plant_disease_prediction_description": "Identify and predict potential plant diseases early.",
+    "market_price": "Market Price",
+    "market_price_description": "Get the latest market prices for your crops and products.",
+    "crop_prediction": "Crop Prediction",
+    "crop_prediction_description": "Forecast which crops are best to plant this season.",
+    "fertilizer_prediction": "Fertilizer Prediction",
+    "fertilizer_prediction_description": "Determine the optimal fertilizer for your crops.",
+    "community": "Community",
+    "community_description": "Connect, share, discuss, collaborate, grow.",
+    "education": "Education",
+    "education_description": "Learn, explore, share, innovate, collaborate, succeed.",
+    "navList": {
+      "home": "HOME",
+      "contact_us": "CONTACT-US",
+      "profile": "PROFILE"
+    }
+  },
+  "Weather": {
+    "currentWeather": {
+      "title": "CURRENT WEATHER"
+    },
+    "todayForecast": {
+      "title": "TODAY'S TEMPERATURE"
+    },
+    "airCondition": {
+      "title": "AIR CONDITIONS"
+    },
+    "weeklyForecast": {
+      "title": "WEEKLY FORECAST"
+    }
+  },
+  "crop-yeild": {
+    "title": "Yield Prediction Form",
+    "temperature": "Temperature",
+    "rain": "Rainfall",
+    "state": "State",
+    "crop-type": "Crop Type",
+    "crop": "Crop",
+    "nitrogen": "Nitrogen",
+    "pottasium": "Pottasium",
+    "phosphorous": "Phosphorous",
+    "ph-level": "PH Level",
+    "area": "Area",
+    "button": "PREDICT"
+  },
+  "fertilizer-prediction": {
+    "title": "Fertilizer Prediction",
+    "city": "City",
+    "city-placeholder": "Enter city name (2-50 characters)",
+    "moisture": "Moisture Level",
+    "moisture-placeholder": "Enter moisture level (0-100)",
+    "soil-type": "Soil Type",
+    "soil-type-placeholder": "Select soil type (Sandy, Clay, Silt, Peat, Loam, Chalk)",
+    "crop": "Crop",
+    "crop-placeholder": "Enter crop name (2-50 characters)",
+    "nitrogen": "Nitrogen Level",
+    "nitrogen-placeholder": "Enter nitrogen level (0-100)",
+    "pottasium": "Potassium Level",
+    "pottasium-placeholder": "Enter potassium level (0-100)",
+    "phosphorous": "Phosphorus Level",
+    "phosphorous-placeholder": "Enter phosphorus level (0-100)",
+    "button": "Submit"
+  },
+  "crop-prediction": {
+    "title": "Crop Prediction Form",
+    "nitrogen": "Nitrogen",
+    "nitrogen-placeholder": "Enter nitrogen level (0-5000)",
+    "phosphorous": "Phosphorous",
+    "phosphorous-placeholder": "Enter phosphorous level (0-5000)",
+    "pottasium": "Potassium",
+    "pottasium-placeholder": "Enter potassium level (0-5000)",
+    "ph-level": "PH Level",
+    "ph-level-placeholder": "Enter pH level (0-14)",
+    "rain": "Rainfall",
+    "rain-placeholder": "Enter rainfall level (0-1000)",
+    "city": "Your City",
+    "city-placeholder": "Enter city name (2-50 characters)",
+    "button": "Submit"
+  },
+  "disease-prediction": {
+    "title": " Disease Prediction Form",
+    "label": "Upload Image",
+    "button": "PREDICT"
+  },
+  "market-price": {
+    "text-section": {
+      "heading": "Access MSP Information with Ease",
+      "paragraph": "Our platform empowers users to effortlessly find the Minimum Support Price (MSP) of various agricultural products within their locality."
+    }
+  },
+  "Appinfo": {
+    "fertilizerInfo": {
+      "nitrogen": {
+        "label": "Nitrogen",
+        "content": "Nitrogen is essential for plant growth as it is a major component of chlorophyll and amino acids."
+      },
+      "rainfall": {
+        "label": "Rainfall",
+        "content": "Rainfall provides the water necessary for plant growth, affecting soil moisture and nutrient availability."
+      },
+      "phosphorous": {
+        "label": "Phosphorous",
+        "content": "Phosphorous supports the development of roots, flowers, seeds, and fruits in plants."
+      },
+      "pottasium": {
+        "label": "Pottasium",
+        "content": "Pottasium helps with the overall health of plants, improving disease resistance and water efficiency."
+      },
+      "phLevel": {
+        "label": "pH Level",
+        "content": "pH measures the acidity or alkalinity of soil, which is important for nutrient availability and plant growth."
+      }
+    }
+  },
+  "cropYeildprediction": {
+    "dialogBody": {
+      "title": "Yield Prediction Data",
+      "successMessage": "Dear Farmer, your hard work has paid off! You've achieved a total production of {{totalProduction}} tons this season. These results are a testament to your dedication and expertise. Keep up the great work, and let's aim even higher next season!"
+    }
+  },
+  "marketPriceSection": {
+    "title": "Local Mandi Rates",
+    "download": "DOWNLOAD",
+    "tableHead": {
+      "commodity": "COMMODITY",
+      "variety": "VARIETY",
+      "minPrice": "MIN PRICE",
+      "maxPrice": "MAX PRICE",
+      "arrivalDate": "ARRIVAL DATE",
+      "grade": "GRADE"
+    }
+  }
+}
