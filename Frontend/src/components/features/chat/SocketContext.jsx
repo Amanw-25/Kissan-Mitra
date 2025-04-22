@@ -14,7 +14,7 @@ const SocketContext = ({ children }) => {
     let socket;
 
     if (UserId) {
-      socket = io("http://localhost:5130/", {
+      socket = io("https://kissan-mitra.onrender.com", {
         withCredentials: true,
         query: {
           UserId,
