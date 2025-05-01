@@ -37,8 +37,6 @@ function LoginForm({ Showpassword, setShowpassword }) {
           toast.success(message);
 
           Navigate("/");
-
-          window.location.reload();
         }
       } catch (error) {
         if (error.data.status === "failed") {
