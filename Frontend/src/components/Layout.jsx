@@ -14,6 +14,8 @@ const Layout = () => {
   // const isUserAuthenticated = localStorage.getItem("isUserAuthenticated") === "true";
   // console.log("isUserAuthenticated:", isUserAuthenticated);
   let isUserAuthenticated;
+  console.log(Cookies.get('isUserAuthenticated'));
+
 
   if (Cookies.get('isUserAuthenticated')) {
     isUserAuthenticated = true;
