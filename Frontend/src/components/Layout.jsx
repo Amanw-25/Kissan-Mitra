@@ -1,4 +1,4 @@
-import React, { Suspense,useState,useEffect } from "react";
+import React, { Suspense, useState, useEffect } from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
 import { privateRoutes, publicRoutes } from "../routes/Approutes";
 import PrivateRoute from "../routes/Privateroute";
@@ -9,22 +9,16 @@ import Footer from "./layouts/footer/Footer";
 import Header from "./layouts/header/Header";
 
 const Layout = () => {
+  const location = useLocation();
+
   const [isUserAuthenticated, setIsUserAuthenticated] = useState(
     localStorage.getItem("isUserAuthenticated") === "true"
   );
 
   useEffect(() => {
-    const handleStorageChange = () => {
-      setIsUserAuthenticated(localStorage.getItem("isUserAuthenticated") === "true");
-    };
+    setIsUserAuthenticated(localStorage.getItem("isUserAuthenticated") === "true");
+  }, [location.pathname]); 
 
-    // Listen for localStorage changes (if login changes it in another tab or context)
-    window.addEventListener("storage", handleStorageChange);
-
-    return () => {
-      window.removeEventListener("storage", handleStorageChange);
-    };
-  }, []);
   return (
     <Suspense fallback={<Mainloader />}>
       <header className="sticky top-0 z-[100]">
