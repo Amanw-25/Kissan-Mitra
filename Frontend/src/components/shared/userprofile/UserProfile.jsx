@@ -35,6 +35,7 @@ function UserProfile() {
       const response = await Logoutuser();
       if (response || isSuccess) {
         toast.success(response.message);
+        localStorage.removeItem("isUserAuthenticated");
         Navigate("/");
         window.location.reload();
       }
