@@ -12,7 +12,6 @@ import Cookies from 'js-cookie';
 
 const Layout = () => {
   const isUserAuthenticated = localStorage.getItem("isUserAuthenticated") === "true";
-  console.log("isUserAuthenticated:", isUserAuthenticated);
   // let isUserAuthenticated;
   // console.log(Cookies.get('isUserAuthenticated'));
 
