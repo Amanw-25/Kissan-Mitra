@@ -35,6 +35,8 @@ function LoginForm({ Showpassword, setShowpassword }) {
           action.resetForm();
 
           toast.success(message);
+          localStorage.setItem("isUserAuthenticated", true);
+
 
           Navigate("/");
         }
