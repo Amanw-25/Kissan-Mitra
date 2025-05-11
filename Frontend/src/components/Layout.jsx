@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React, { Suspense,useState,useEffect } from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
 import { privateRoutes, publicRoutes } from "../routes/Approutes";
 import PrivateRoute from "../routes/Privateroute";
@@ -6,22 +6,24 @@ import Mainloader from "./shared/apploaders/Mainloader";
 import Navigationbar from "./shared/navbar/Navigationbar";
 import "./Layout.css";
 import Footer from "./layouts/footer/Footer";
-import { useSelector } from "react-redux";
 import Header from "./layouts/header/Header";
-import Cookies from 'js-cookie';
 
 const Layout = () => {
-  const isUserAuthenticated = localStorage.getItem("isUserAuthenticated") === "true";
-  // let isUserAuthenticated;
-  // console.log(Cookies.get('isUserAuthenticated'));
+  const [isUserAuthenticated, setIsUserAuthenticated] = useState(
+    localStorage.getItem("isUserAuthenticated") === "true"
+  );
 
+  useEffect(() => {
+    const handleStorageChange = () => {
+      setIsUserAuthenticated(localStorage.getItem("isUserAuthenticated") === "true");
+    };
 
-  // if (Cookies.get('isUserAuthenticated')) {
-  //   isUserAuthenticated = true;
-  // } else {
-  //   isUserAuthenticated = false;
-  // }
-  
+    window.addEventListener("storage", handleStorageChange);
+
+    return () => {
+      window.removeEventListener("storage", handleStorageChange);
+    };
+  }, []);
   return (
     <Suspense fallback={<Mainloader />}>
       <header className="sticky top-0 z-[100]">
