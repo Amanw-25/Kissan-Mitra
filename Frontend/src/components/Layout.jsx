@@ -18,6 +18,7 @@ const Layout = () => {
       setIsUserAuthenticated(localStorage.getItem("isUserAuthenticated") === "true");
     };
 
+    // Listen for localStorage changes (if login changes it in another tab or context)
     window.addEventListener("storage", handleStorageChange);
 
     return () => {
