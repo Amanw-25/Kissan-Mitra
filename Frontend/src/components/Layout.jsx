@@ -11,17 +11,17 @@ import Header from "./layouts/header/Header";
 import Cookies from 'js-cookie';
 
 const Layout = () => {
-  // const isUserAuthenticated = localStorage.getItem("isUserAuthenticated") === "true";
-  // console.log("isUserAuthenticated:", isUserAuthenticated);
-  let isUserAuthenticated;
-  console.log(Cookies.get('isUserAuthenticated'));
+  const isUserAuthenticated = localStorage.getItem("isUserAuthenticated") === "true";
+  console.log("isUserAuthenticated:", isUserAuthenticated);
+  // let isUserAuthenticated;
+  // console.log(Cookies.get('isUserAuthenticated'));
 
 
-  if (Cookies.get('isUserAuthenticated')) {
-    isUserAuthenticated = true;
-  } else {
-    isUserAuthenticated = false;
-  }
+  // if (Cookies.get('isUserAuthenticated')) {
+  //   isUserAuthenticated = true;
+  // } else {
+  //   isUserAuthenticated = false;
+  // }
   
   return (
     <Suspense fallback={<Mainloader />}>
